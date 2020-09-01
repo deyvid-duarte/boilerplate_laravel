@@ -14,7 +14,7 @@ Instale as dependencias
 composer install
 ```
 
-Crie o banco na sua maquina, copie o cole o .env.example para .env e configura as variaves de ambiente para apontar para seu banco ou docker, 
+Crie o banco na sua maquina, copie o cole o .env.example para .env e configure as variaves de ambiente para apontar para seu banco ou docker, 
 depois rode:
 
 ```
@@ -23,7 +23,7 @@ php artisan migrate
 
 Em seguida:
 ```
-php artisan generate:key
+php artisan key:generate
 ```
 
 E por ultimo
